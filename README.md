@@ -17,6 +17,6 @@ This project implements a complete data pipeline using Flask, FastAPI, and Postg
    ```bash
    docker-compose up --build -d
 3. Test the endpoints:
-    View Mock Data: curl http://localhost:5000/api/customers?page=1&limit=5
-    Trigger Ingestion: curl -X POST http://localhost:8000/api/ingest
-    View Ingested Data: curl http://localhost:8000/api/customers?page=1&limit=5
+* View Mock Data: curl http://localhost:5000/api/customers?page=1&limit=5
+* Trigger Ingestion: curl -X POST http://localhost:8000/api/ingest
+* View Ingested Data: curl http://localhost:8000/api/customers?page=1&limit=5
